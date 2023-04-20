@@ -3,7 +3,7 @@ import "./Weather.css";
 
 export default function Weather() {
   let weatherData = {
-    city: "New York"
+    city: "New York",
   };
   return (
     <div className="Weather">
@@ -21,17 +21,8 @@ export default function Weather() {
                     <form id="search-form" action="" className="text-center">
                       <div id="form-style">
                         <div className="child1">
-                          <input
-                            type="search"
-                            id="search-box"
-                            className="search-form mx-auto w-100"
-                            placeholder="🔍Enter city..."
-                          />
-                          <button
-                            id="search-city"
-                            className="btn btn-primary"
-                            type="submit"
-                          >
+                          <input type="search" id="search-box" className="search-form mx-auto w-100" placeholder="🔍Enter city..." />
+                          <button id="search-city" className="btn btn-primary" type="submit">
                             Search
                           </button>
                         </div>
@@ -44,10 +35,7 @@ export default function Weather() {
                     </form>
                   </div>
 
-                  <div
-                    className="info mt-3 text-center"
-                    id="current-conditions"
-                  >
+                  <div className="info mt-3 text-center" id="current-conditions">
                     <p className="heading" id="city">
                       {weatherData.city}
                     </p>
@@ -73,10 +61,7 @@ export default function Weather() {
                       <p className="main-weather">Cloudy</p>
                       <p className="min-max">Min 52° • Max 51°</p>
                     </div>
-                    <div
-                      className="col order-1 order-sm-2 icon text-center text-sm-end align-items-center"
-                      id="main-icon"
-                    >
+                    <div className="col order-1 order-sm-2 icon text-center text-sm-end align-items-center" id="main-icon">
                       <lord-icon
                         src="https://cdn.lordicon.com/qrodhbts.json"
                         trigger="hover"
@@ -86,31 +71,20 @@ export default function Weather() {
                     </div>
                   </div>
 
-                  <div
-                    className="row temp-boxes gap-1 gap-lg-3 mt-4 ms-0 me-0 justify-content-center justify-content-md-between text-center"
-                    id="forecast"
-                  ></div>
+                  <div className="row temp-boxes gap-1 gap-lg-3 mt-4 ms-0 me-0 justify-content-center justify-content-md-between text-center" id="forecast"></div>
                 </div>
                 <div id="card-footer" className="ps-5 pe-5">
                   <hr className="mx-auto" />
                   <p className="text-center fs-6">
                     This was coded by
                     <span>
-                      <a
-                        href="https://www.shecodes.io/graduates/66604-sheila-sanchez"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
+                      <a href="https://www.shecodes.io/graduates/66604-sheila-sanchez" target="_blank" rel="noreferrer noopener">
                         Sheila Sanchez
                       </a>
                     </span>
                     /
                     <span>
-                      <a
-                        href="https://github.com/Sheiliita/first-weather-app"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
+                      <a href="https://github.com/Sheiliita/first-weather-app" target="_blank" rel="noreferrer noopener">
                         Github code
                       </a>
                     </span>
