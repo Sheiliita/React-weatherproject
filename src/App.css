@@ -1,0 +1,17 @@
+.App {
+  margin: 20px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #484d5a;
+  background: linear-gradient(
+    109.6deg,
+    rgba(220, 196, 252, 0.3) 11.2%,
+    rgba(150, 199, 253, 0.3) 100.2%
+  );
+}
+
+section {
+  height: 100vh;
+}
