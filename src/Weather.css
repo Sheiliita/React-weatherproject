@@ -75,11 +75,6 @@ h1 {
   border-color: #f59f01;
 }
 
-.temp-system a.active {
-  color: #484d5a;
-  cursor: default;
-}
-
 .info p,
 .temperature p {
   margin: 0;
@@ -148,9 +143,11 @@ a:hover {
 }
 .temp-system {
   position: absolute;
-  left: 180px;
-  top: -15px;
+  right: 80px;
+  top: -5px;
 }
-.temp-system a {
-  font-size: 40px;
+.temp-system a.active {
+  color: #484d5a;
+  cursor: pointer;
+  text-decoration: none;
 }
