@@ -100,33 +100,6 @@ img.main-icon {
   height: 150px;
 }
 
-.temp-boxes .card-body {
-  padding-left: 0;
-  padding-right: 0;
-}
-.temp-box {
-  background: #d9edfd;
-  border: none;
-  border-radius: 20px;
-}
-
-p.card-title,
-.card-text {
-  margin: 0;
-  font-size: 20px;
-}
-.card-title {
-  margin-bottom: 0;
-  font-weight: 500;
-  font-size: 18px;
-}
-
-.card-icon img {
-  font-size: 50px;
-  margin: 0;
-  height: 80px;
-}
-
 a {
   text-decoration: none;
   font-style: italic;

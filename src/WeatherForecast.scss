@@ -1,0 +1,30 @@
+.WeatherForecast {
+  .temp-boxes {
+    .temp-box {
+      background: #d9edfd;
+      border: none;
+      border-radius: 20px;
+      .card-body {
+        padding-left: 0;
+        padding-right: 0;
+        p.card-title,
+        .card-text {
+          margin: 0;
+          font-size: 20px;
+        }
+        .card-title {
+          margin-bottom: 0;
+          font-weight: 600;
+          font-size: 18px;
+        }
+        .card-icon {
+          img {
+            font-size: 50px;
+            margin: 0;
+            height: 80px;
+          }
+        }
+      }
+    }
+  }
+}

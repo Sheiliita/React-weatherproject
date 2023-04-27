@@ -21,7 +21,9 @@ export default function WeatherInfo(props) {
           <WeatherTemperature celsius={props.data.temperature} />
 
           <p className="main-weather text-capitalize">{props.data.description}</p>
-          <p className="min-max">Min 52° • Max 51°</p>
+          <p className="min-max">
+            Min {props.data.min}° • Max {props.data.max}°
+          </p>
         </div>
         <div className="col order-1 order-sm-2 icon text-center text-sm-center align-items-center">
           <img className="main-icon" src={props.data.iconUrl} alt={props.data.description} />
