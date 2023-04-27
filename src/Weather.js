@@ -63,11 +63,6 @@ export default function Weather(props) {
                               Search
                             </button>
                           </div>
-                          <div className="child2">
-                            <button id="current-temp" className="btn btn-success">
-                              Current
-                            </button>
-                          </div>
                         </div>
                       </form>
                     </div>
