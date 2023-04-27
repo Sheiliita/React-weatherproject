@@ -95,8 +95,14 @@ p.temperature-number,
   font-size: 175px;
   line-height: 0.9em;
 }
+
 p.temperature-number {
-  font-size: clamp(40px, 30vw, 130px);
+  font-size: clamp(40px, 30vw, 100px);
+}
+
+img.main-icon {
+  width: 150px;
+  height: 150px;
 }
 
 .temp-boxes .card-body {
